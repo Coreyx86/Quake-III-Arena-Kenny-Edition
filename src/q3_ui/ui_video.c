@@ -770,7 +770,9 @@ void GraphicsOptions_MenuInit( void )
 		"1152x864",
 		"1280x1024",
 		"1600x1200",
+		"1920x1080",
 		"2048x1536",
+		"2560x1440",
 		"856x480 wide screen",
 		0
 	};
@@ -899,7 +901,7 @@ void GraphicsOptions_MenuInit( void )
 
 	// references/modifies "r_mode"
 	s_graphicsoptions.mode.generic.type     = MTYPE_SPINCONTROL;
-	s_graphicsoptions.mode.generic.name     = "Video Mode:";
+	s_graphicsoptions.mode.generic.name     = "resolution:";
 	s_graphicsoptions.mode.generic.flags    = QMF_PULSEIFFOCUS|QMF_SMALLFONT;
 	s_graphicsoptions.mode.generic.x        = 400;
 	s_graphicsoptions.mode.generic.y        = y;
